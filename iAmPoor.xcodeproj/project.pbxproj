@@ -15,6 +15,8 @@
 		8EC5AD25268E256E005CC5F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC5AD23268E256E005CC5F4 /* LaunchScreen.storyboard */; };
 		8EC5AD30268E256E005CC5F4 /* iAmPoorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5AD2F268E256E005CC5F4 /* iAmPoorTests.swift */; };
 		8EC5AD3B268E256F005CC5F4 /* iAmPoorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5AD3A268E256F005CC5F4 /* iAmPoorUITests.swift */; };
+		8EC5AD4A268E38E9005CC5F4 /* poor.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8EC5AD49268E38E9005CC5F4 /* poor.wav */; };
+		8EC5AD4C268E39F7005CC5F4 /* dont.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8EC5AD4B268E39F7005CC5F4 /* dont.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8EC5AD36268E256E005CC5F4 /* iAmPoorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iAmPoorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC5AD3A268E256F005CC5F4 /* iAmPoorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAmPoorUITests.swift; sourceTree = "<group>"; };
 		8EC5AD3C268E256F005CC5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC5AD49268E38E9005CC5F4 /* poor.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = poor.wav; sourceTree = "<group>"; };
+		8EC5AD4B268E39F7005CC5F4 /* dont.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dont.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				8EC5AD21268E256E005CC5F4 /* Assets.xcassets */,
 				8EC5AD23268E256E005CC5F4 /* LaunchScreen.storyboard */,
 				8EC5AD26268E256E005CC5F4 /* Info.plist */,
+				8EC5AD48268E38A2005CC5F4 /* Sounds */,
 			);
 			path = iAmPoor;
 			sourceTree = "<group>";
@@ -126,6 +131,15 @@
 				8EC5AD3C268E256F005CC5F4 /* Info.plist */,
 			);
 			path = iAmPoorUITests;
+			sourceTree = "<group>";
+		};
+		8EC5AD48268E38A2005CC5F4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8EC5AD4B268E39F7005CC5F4 /* dont.wav */,
+				8EC5AD49268E38E9005CC5F4 /* poor.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC5AD4C268E39F7005CC5F4 /* dont.wav in Resources */,
+				8EC5AD4A268E38E9005CC5F4 /* poor.wav in Resources */,
 				8EC5AD25268E256E005CC5F4 /* LaunchScreen.storyboard in Resources */,
 				8EC5AD22268E256E005CC5F4 /* Assets.xcassets in Resources */,
 				8EC5AD20268E256D005CC5F4 /* Main.storyboard in Resources */,
